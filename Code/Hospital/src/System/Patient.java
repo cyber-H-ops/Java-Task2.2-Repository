@@ -19,6 +19,14 @@ public class Patient {
         public String getAppointment() {
             return appointment;
         }
+        
+        public String getDiagnosis(Doctor d) {
+            return diagnosis;
+        }
+
+        public double getBalance(Admin a) {
+            return balance;
+        }
 
     }
 }
