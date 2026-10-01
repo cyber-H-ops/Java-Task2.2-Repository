@@ -1,5 +1,8 @@
 package System;
 
+import Admin.Admin;
+import Doctor.Doctor;
+
 public class Patient {
     private String name;
     private String appointment;
@@ -11,6 +14,7 @@ public class Patient {
         this.appointment = appointment;
         this.diagnosis = diagnosis;
         this.balance = balance;
+    }
 
         public String getName() {
             return name;
@@ -27,6 +31,4 @@ public class Patient {
         public double getBalance(Admin a) {
             return balance;
         }
-
-    }
 }
