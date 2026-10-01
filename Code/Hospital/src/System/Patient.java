@@ -5,4 +5,11 @@ public class Patient {
     private String appointment;
     private String diagnosis;
     private double balance;
+
+    public Patient(String name, String appointment, String diagnosis, double balance) {
+        this.name = name;
+        this.appointment = appointment;
+        this.diagnosis = diagnosis;
+        this.balance = balance;
+    }
 }
