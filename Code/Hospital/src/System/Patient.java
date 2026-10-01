@@ -11,5 +11,14 @@ public class Patient {
         this.appointment = appointment;
         this.diagnosis = diagnosis;
         this.balance = balance;
+
+        public String getName() {
+            return name;
+        }
+
+        public String getAppointment() {
+            return appointment;
+        }
+
     }
 }
